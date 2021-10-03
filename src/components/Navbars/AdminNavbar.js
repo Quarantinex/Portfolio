@@ -18,7 +18,6 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-
 // reactstrap components
 import {
   Button,
@@ -118,27 +117,17 @@ function AdminNavbar(props) {
                 <DropdownMenu className="dropdown-navbar" right tag="ul">
                   <NavLink tag="li">
                     <DropdownItem className="nav-item">
-                      Mike John responded to your email
+                      Stock A has gained profit
                     </DropdownItem>
                   </NavLink>
                   <NavLink tag="li">
                     <DropdownItem className="nav-item">
-                      You have 5 more tasks
+                      New stock you might be interested in
                     </DropdownItem>
                   </NavLink>
                   <NavLink tag="li">
                     <DropdownItem className="nav-item">
-                      Your friend Michael is in town
-                    </DropdownItem>
-                  </NavLink>
-                  <NavLink tag="li">
-                    <DropdownItem className="nav-item">
-                      Another notification
-                    </DropdownItem>
-                  </NavLink>
-                  <NavLink tag="li">
-                    <DropdownItem className="nav-item">
-                      Another one
+                      Stock Z has made a significant loss
                     </DropdownItem>
                   </NavLink>
                 </DropdownMenu>
@@ -162,6 +151,9 @@ function AdminNavbar(props) {
                 <DropdownMenu className="dropdown-navbar" right tag="ul">
                   <NavLink tag="li">
                     <DropdownItem className="nav-item">Profile</DropdownItem>
+                  </NavLink>
+                  <NavLink tag="li">
+                    <DropdownItem className="nav-item">Coins: 300</DropdownItem>
                   </NavLink>
                   <NavLink tag="li">
                     <DropdownItem className="nav-item">Settings</DropdownItem>
